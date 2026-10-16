@@ -3,26 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Karl Aldrine M. Emilio - Portfolio</title>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Karl ALdrine M. Emilio</h1>
-            <p>Bachelor in Science And Information Technology - Web Dev Track</p>
+            <h1>Karl Aldrine M. Emilio</h1>
+            <p>Bachelor of Science in Information Technology - Web Dev Track</p>
             <nav>
                 <ul>
-                    <li><a href="Home">{Home}</a></li>
-                    <li><a href="About">{About}</a></li>
-                    <li><a href="Skills">{Skills}</a></li>
-                    <li><a href="Projects">{Projects}</a></li>
-                    <li><a href="Contact">{Contact}</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <h1>About Section</h1>
-            <p>I am born in May 16, 2007 at Baguio City, Benguet.</p>
-            <img src="Profile.jpg" alt="ProfilePicture">
-            <h1>Skills Section</h1>
+        </header>
+
+        <section id="about">
+            <h2>About Section</h2>
+            <p>I was born on May 16, 2007, in Baguio City, Benguet.</p>
+            <img src="Profile.jpg" alt="Profile Picture" width=200 height=200>
+        </section>
+
+        <section id="skills">
+            <h2>Skills Section</h2>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -30,26 +36,58 @@
                 <li>Git</li>
                 <li>MySQL</li>
             </ul>
-            <form action="Name"></form>
-            <form action="Email"></form>
-            <form action="Subbject"></form> 
-            <form action="Message"></form>
-            <form action="Submit"></form>
-            <footer>© 2026 - Karl Aldrine M. Emilio</footer>
-        </header>
+        </section>
 
-        <header>
-            <h1>My Portfolio</h1>
-            <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+	<section id="projects">
+            <h2>Projects Section</h2>
+            
+            <div class="project-card">
+                <h3>Portfolio Gallery</h3>
+                <p>A responsive gallery showcasing web development projects, design layouts, and creative assets.</p>
+                <a href="https://karuemirio.github.io/Karl-Aldrine-M.-Emilio-Portfolio/gallery.html" target="_blank">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Aquaria Project</h3>
+                <p>An aquatic-themed web page featuring structured content, clean typography, and responsive styling.</p>
+                <a href="https://karuemirio.github.io/The9Titans/Aquaria.html" target="_blank">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>About Page</h3>
+                <p>A dedicated personal profile and biographical web page built with HTML and CSS.</p>
+                <a href="https://karuemirio.github.io/k/About%20Page.html" target="_blank">View Project</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Section</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="subject">Subject:</label><br>
+                    <input type="text" id="subject" name="subject">
+                </div>
+                <div>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 - Karl Aldrine M. Emilio</p>
+        </footer>
     </div>
 </body>
 </html>
