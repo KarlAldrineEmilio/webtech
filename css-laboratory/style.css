@@ -1,0 +1,14 @@
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 16px;
+}
+
+html, body {
+    background-color: dimgray;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
