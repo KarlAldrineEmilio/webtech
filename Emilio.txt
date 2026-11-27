@@ -1,0 +1,1567 @@
+commit da7746fbf85789586ceecde9557c4e2fa4fcf365
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-10-16 15:05:25 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-16 15:05:25 +0800
+
+    Delete emmet-laboratory/images/image
+
+diff --git a/emmet-laboratory/images/image b/emmet-laboratory/images/image
+deleted file mode 100644
+index 8b13789..0000000
+--- a/emmet-laboratory/images/image
++++ /dev/null
+@@ -1 +0,0 @@
+-
+
+commit ed86ae44e412d2ee21a91d56c52810d81401c4ed
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-10-16 15:04:51 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-16 15:04:51 +0800
+
+    Add files via upload
+
+diff --git a/emmet-laboratory/images/Profile.jpg b/emmet-laboratory/images/Profile.jpg
+new file mode 100644
+index 0000000..92c910e
+Binary files /dev/null and b/emmet-laboratory/images/Profile.jpg differ
+
+commit d7c243ed59534bd60e984ab8c387a1bc37c6eb56
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-10-16 15:03:01 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-16 15:03:01 +0800
+
+    Create image
+
+diff --git a/emmet-laboratory/images/image b/emmet-laboratory/images/image
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/emmet-laboratory/images/image
+@@ -0,0 +1 @@
++
+
+commit f5db9c052c406903eca93212f2f73e1fcf8c7bb1
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-10-16 15:01:26 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-16 15:01:26 +0800
+
+    Update portfolio.html
+
+diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
+index 6b68a78..e0284c6 100644
+--- a/emmet-laboratory/portfolio.html
++++ b/emmet-laboratory/portfolio.html
+@@ -3,26 +3,32 @@
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>Document</title>
++    <title>Karl Aldrine M. Emilio - Portfolio</title>
+ </head>
+ <body>
+     <div class="container">
+         <header>
+-            <h1>Karl ALdrine M. Emilio</h1>
+-            <p>Bachelor in Science And Information Technology - Web Dev Track</p>
++            <h1>Karl Aldrine M. Emilio</h1>
++            <p>Bachelor of Science in Information Technology - Web Dev Track</p>
+             <nav>
+                 <ul>
+-                    <li><a href="Home">{Home}</a></li>
+-                    <li><a href="About">{About}</a></li>
+-                    <li><a href="Skills">{Skills}</a></li>
+-                    <li><a href="Projects">{Projects}</a></li>
+-                    <li><a href="Contact">{Contact}</a></li>
++                    <li><a href="#home">Home</a></li>
++                    <li><a href="#about">About</a></li>
++                    <li><a href="#skills">Skills</a></li>
++                    <li><a href="#projects">Projects</a></li>
++                    <li><a href="#contact">Contact</a></li>
+                 </ul>
+             </nav>
+-            <h1>About Section</h1>
+-            <p>I am born in May 16, 2007 at Baguio City, Benguet.</p>
+-            <img src="Profile.jpg" alt="ProfilePicture">
+-            <h1>Skills Section</h1>
++        </header>
++
++        <section id="about">
++            <h2>About Section</h2>
++            <p>I was born on May 16, 2007, in Baguio City, Benguet.</p>
++            <img src="Profile.jpg" alt="Profile Picture" width=200 height=200>
++        </section>
++
++        <section id="skills">
++            <h2>Skills Section</h2>
+             <ul>
+                 <li>HTML</li>
+                 <li>CSS</li>
+@@ -30,26 +36,58 @@
+                 <li>Git</li>
+                 <li>MySQL</li>
+             </ul>
+-            <form action="Name"></form>
+-            <form action="Email"></form>
+-            <form action="Subbject"></form> 
+-            <form action="Message"></form>
+-            <form action="Submit"></form>
+-            <footer>© 2026 - Karl Aldrine M. Emilio</footer>
+-        </header>
++        </section>
+ 
+-        <header>
+-            <h1>My Portfolio</h1>
+-            <nav>
+-            <ul>
+-                <li><a href="">Home</a></li>
+-                <li><a href="">About</a></li>
+-                <li><a href="">Skills</a></li>
+-                <li><a href="">Projects</a></li>
+-                <li><a href="">Contact</a></li>
+-            </ul>
+-        </nav>
+-    </header>
++	<section id="projects">
++            <h2>Projects Section</h2>
++            
++            <div class="project-card">
++                <h3>Portfolio Gallery</h3>
++                <p>A responsive gallery showcasing web development projects, design layouts, and creative assets.</p>
++                <a href="https://karuemirio.github.io/Karl-Aldrine-M.-Emilio-Portfolio/gallery.html" target="_blank">View Project</a>
++            </div>
++
++            <div class="project-card">
++                <h3>Aquaria Project</h3>
++                <p>An aquatic-themed web page featuring structured content, clean typography, and responsive styling.</p>
++                <a href="https://karuemirio.github.io/The9Titans/Aquaria.html" target="_blank">View Project</a>
++            </div>
++
++            <div class="project-card">
++                <h3>About Page</h3>
++                <p>A dedicated personal profile and biographical web page built with HTML and CSS.</p>
++                <a href="https://karuemirio.github.io/k/About%20Page.html" target="_blank">View Project</a>
++            </div>
++        </section>
++
++        <section id="contact">
++            <h2>Contact Section</h2>
++            <form action="#" method="POST">
++                <div>
++                    <label for="name">Name:</label><br>
++                    <input type="text" id="name" name="name">
++                </div>
++                <div>
++                    <label for="email">Email:</label><br>
++                    <input type="email" id="email" name="email">
++                </div>
++                <div>
++                    <label for="subject">Subject:</label><br>
++                    <input type="text" id="subject" name="subject">
++                </div>
++                <div>
++                    <label for="message">Message:</label><br>
++                    <textarea id="message" name="message"></textarea>
++                </div>
++                <div>
++                    <button type="submit">Submit</button>
++                </div>
++            </form>
++        </section>
++
++        <footer>
++            <p>&copy; 2026 - Karl Aldrine M. Emilio</p>
++        </footer>
+     </div>
+ </body>
+ </html>
+
+commit e550633e3bc735b779b36bc6b1fe24858e9f8bf1
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-10-13 12:38:54 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-13 12:38:54 +0800
+
+    Update 03-navigation.html
+
+diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
+index 41024d4..ca1977b 100644
+--- a/emmet-laboratory/03-navigation.html
++++ b/emmet-laboratory/03-navigation.html
+@@ -6,49 +6,55 @@
+     <title>Document</title>
+ </head>
+ <body>
+-    <ul>
+-        <li class="item1"></li>
+-        <li class="item2"></li>
+-        <li class="item3"></li>
+-        <li class="item4"></li>
+-        <li class="item5"></li>
+-    </ul>
++    <header></header>
++    <nav></nav>
++    <main></main>
++    <section></section>
++    <article></article>
++    <aside></aside>
++    <footer></footer>
+ 
+-    <ul>
+-        <li>Menu 1</li>
+-        <li>Menu 2</li>
+-        <li>Menu 3</li>
+-        <li>Menu 4</li>
+-        <li>Menu 5</li>
+-    </ul>
++    <div class="container">
++        <header>
++            <h1>My Portfolio</h1>
++            <p>Web Developer</p>
++            <nav>
++                <ul>
++                    <li><a href="">Menu 1</a>
++                        <main>
++                            <section>
++                                <article></article>
++                            </section>
++                        </main>
++                    </li>
++                    <li><a href="">Menu 2</a>
++                        <main>
++                            <section>
++                                <article></article>
++                            </section>
++                        </main>
++                    </li>
++                    <li><a href="">Menu 3</a>
++                        <main>
++                            <section>
++                                <article></article>
++                            </section>
++                        </main>
++                    </li>
++                    <li><a href="">Menu 4</a>
++                        <main>
++                            <section>
++                                <article></article>
++                            </section>
++                        </main>
++                    </li>
++                </ul>
++            </nav>
++        </header>
++        <footer>
++            <p></p>
++        </footer>
++    </div>
+ 
+-    <nav>
+-        <ul>
+-            <li><a href="About"></a></li>
+-            <li><a href="Home"></a></li>
+-            <li><a href="Services"></a></li>
+-            <li><a href="Projects"></a></li>
+-            <li><a href="Contacts"></a></li>
+-        </ul>
+-    </nav>
+-
+-        <nav>
+-        <ul>
+-            <li><a href="About"></a></li>
+-            <li><a href="Home"></a></li>
+-            <li><a href="Services"></a></li>
+-            <li><a href="Portfolio"></a></li>
+-            <li><a href="Contacts"></a></li>
+-        </ul>
+-    </nav>
+-
+-    <input type="text">
+-    <input type="text" placeholder="Karl ALdrine Emilio">
+-
+-    <input type="email" placeholder="emiliokarlaldrine@gmail.com">
+-
+-    <img src="images/profile.jpgProfile Photo" alt="">
+-
+-    <a href="https://www.google.com">{Google}</a>
+ </body>
+ </html>
+
+commit bf900b154070d49cfef5c0a693e9379101933d5f
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-10-10 12:09:41 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-10 12:09:41 +0800
+
+    Update 03-navigation.html
+
+diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
+index 31bf795..41024d4 100644
+--- a/emmet-laboratory/03-navigation.html
++++ b/emmet-laboratory/03-navigation.html
+@@ -32,6 +32,16 @@
+         </ul>
+     </nav>
+ 
++        <nav>
++        <ul>
++            <li><a href="About"></a></li>
++            <li><a href="Home"></a></li>
++            <li><a href="Services"></a></li>
++            <li><a href="Portfolio"></a></li>
++            <li><a href="Contacts"></a></li>
++        </ul>
++    </nav>
++
+     <input type="text">
+     <input type="text" placeholder="Karl ALdrine Emilio">
+ 
+
+commit bcbd923a0ab0147ebbe30ae4994c96d138df2988
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-10-06 12:39:01 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-06 12:39:01 +0800
+
+    Update 03-navigation.html
+
+diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
+index c9c473b..31bf795 100644
+--- a/emmet-laboratory/03-navigation.html
++++ b/emmet-laboratory/03-navigation.html
+@@ -24,11 +24,11 @@
+ 
+     <nav>
+         <ul>
+-            <li><a href="About"></a>{About}</li>
+-            <li><a href="Home"></a>{Home}</li>
+-            <li><a href="Services"></a>{Services}</li>
+-            <li><a href="Projects"></a>{Projects}</li>
+-            <li><a href="Contacts"></a>{Contacts}</li>
++            <li><a href="About"></a></li>
++            <li><a href="Home"></a></li>
++            <li><a href="Services"></a></li>
++            <li><a href="Projects"></a></li>
++            <li><a href="Contacts"></a></li>
+         </ul>
+     </nav>
+ 
+
+commit ef127ff7fae3339c3d9867752e80f676f43f33f0
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-10-06 12:38:39 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-06 12:38:39 +0800
+
+    Create portfolio.html
+
+diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
+new file mode 100644
+index 0000000..6b68a78
+--- /dev/null
++++ b/emmet-laboratory/portfolio.html
+@@ -0,0 +1,55 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <div class="container">
++        <header>
++            <h1>Karl ALdrine M. Emilio</h1>
++            <p>Bachelor in Science And Information Technology - Web Dev Track</p>
++            <nav>
++                <ul>
++                    <li><a href="Home">{Home}</a></li>
++                    <li><a href="About">{About}</a></li>
++                    <li><a href="Skills">{Skills}</a></li>
++                    <li><a href="Projects">{Projects}</a></li>
++                    <li><a href="Contact">{Contact}</a></li>
++                </ul>
++            </nav>
++            <h1>About Section</h1>
++            <p>I am born in May 16, 2007 at Baguio City, Benguet.</p>
++            <img src="Profile.jpg" alt="ProfilePicture">
++            <h1>Skills Section</h1>
++            <ul>
++                <li>HTML</li>
++                <li>CSS</li>
++                <li>Java</li>
++                <li>Git</li>
++                <li>MySQL</li>
++            </ul>
++            <form action="Name"></form>
++            <form action="Email"></form>
++            <form action="Subbject"></form> 
++            <form action="Message"></form>
++            <form action="Submit"></form>
++            <footer>© 2026 - Karl Aldrine M. Emilio</footer>
++        </header>
++
++        <header>
++            <h1>My Portfolio</h1>
++            <nav>
++            <ul>
++                <li><a href="">Home</a></li>
++                <li><a href="">About</a></li>
++                <li><a href="">Skills</a></li>
++                <li><a href="">Projects</a></li>
++                <li><a href="">Contact</a></li>
++            </ul>
++        </nav>
++    </header>
++    </div>
++</body>
++</html>
+
+commit b39c1d926da632375a90f4adf3d4313992fe476e
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-10-06 12:25:11 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-06 12:25:11 +0800
+
+    Update 03-navigation.html
+
+diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
+index 27ae256..c9c473b 100644
+--- a/emmet-laboratory/03-navigation.html
++++ b/emmet-laboratory/03-navigation.html
+@@ -24,11 +24,11 @@
+ 
+     <nav>
+         <ul>
+-            li>a{Home}
+-            li>a{About}
+-            li>a{Services}
+-            li>a{Projects}
+-            li>a{Contact}
++            <li><a href="About"></a>{About}</li>
++            <li><a href="Home"></a>{Home}</li>
++            <li><a href="Services"></a>{Services}</li>
++            <li><a href="Projects"></a>{Projects}</li>
++            <li><a href="Contacts"></a>{Contacts}</li>
+         </ul>
+     </nav>
+ 
+
+commit a76d3fb75212db84a1545e8ba3af32213e0cf389
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-10-06 12:10:30 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-06 12:10:30 +0800
+
+    Update 05-semantic.html
+
+diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
+index 5077ed6..f314bc6 100644
+--- a/emmet-laboratory/05-semantic.html
++++ b/emmet-laboratory/05-semantic.html
+@@ -13,5 +13,20 @@
+     <article></article>
+     <aside></aside>
+     <footer></footer>
++
++    <div class="container">
++        <header>
++            <h1>My Portfolio</h1>
++            <p>Web Developer</p>
++            <nav>
++                <ul>
++                    <li><a href="">Menu 1</a></li>
++                    <li><a href="">Menu 2</a></li>
++                    <li><a href="">Menu 3</a></li>
++                    <li><a href="">Menu 4</a></li>
++                </ul>
++            </nav>
++        </header>
++    </div>
+ </body>
+ </html>
+
+commit b35561654ecae43458020994d90956293e4792f8
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-10-06 12:08:58 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-06 12:08:58 +0800
+
+    Create 05-semantic.html
+
+diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
+new file mode 100644
+index 0000000..5077ed6
+--- /dev/null
++++ b/emmet-laboratory/05-semantic.html
+@@ -0,0 +1,17 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <header></header>
++    <nav></nav>
++    <main></main>
++    <section></section>
++    <article></article>
++    <aside></aside>
++    <footer></footer>
++</body>
++</html>
+
+commit 46c72eb592ecaebec2a20884b4c5d2547563c6d7
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-10-06 12:06:21 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-06 12:06:21 +0800
+
+    Create 04-form.html
+
+diff --git a/emmet-laboratory/04-form.html b/emmet-laboratory/04-form.html
+new file mode 100644
+index 0000000..38773ec
+--- /dev/null
++++ b/emmet-laboratory/04-form.html
+@@ -0,0 +1,16 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <input type="text" name="" id="">
++    <input type="email" name="" id="">
++    <input type="password" name="" id="">
++    <input type="checkbox" name="" id="">
++    <input type="radio" name="" id="">
++    <input type="submit" value="">
++</body>
++</html>
+
+commit 60c20d27734eda55a84fedd6999ccec59217b7e7
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-10-06 12:02:55 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-06 12:02:55 +0800
+
+    Update 03-navigation.html
+
+diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
+index 78fe12d..27ae256 100644
+--- a/emmet-laboratory/03-navigation.html
++++ b/emmet-laboratory/03-navigation.html
+@@ -22,6 +22,23 @@
+         <li>Menu 5</li>
+     </ul>
+ 
+-    nav>ul>li>a{Home}+a{About}+a{Services}+a{Projects}+a{Contact}
++    <nav>
++        <ul>
++            li>a{Home}
++            li>a{About}
++            li>a{Services}
++            li>a{Projects}
++            li>a{Contact}
++        </ul>
++    </nav>
++
++    <input type="text">
++    <input type="text" placeholder="Karl ALdrine Emilio">
++
++    <input type="email" placeholder="emiliokarlaldrine@gmail.com">
++
++    <img src="images/profile.jpgProfile Photo" alt="">
++
++    <a href="https://www.google.com">{Google}</a>
+ </body>
+ </html>
+
+commit 3e3944eea194e7f742aa54b0e4d9f1bf02f33577
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-10-03 12:41:40 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-03 12:41:40 +0800
+
+    Update 03-navigation.html
+
+diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
+index b404fa5..78fe12d 100644
+--- a/emmet-laboratory/03-navigation.html
++++ b/emmet-laboratory/03-navigation.html
+@@ -22,6 +22,6 @@
+         <li>Menu 5</li>
+     </ul>
+ 
+-    nav>ul>li*5>a{Home{About {Services {Projects {Contact
++    nav>ul>li>a{Home}+a{About}+a{Services}+a{Projects}+a{Contact}
+ </body>
+ </html>
+
+commit 656eee54c9bd0afb67a981fe44cf559525f0aaef
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-10-03 12:37:28 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-03 12:37:28 +0800
+
+    Create 03-navigation.html
+
+diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
+new file mode 100644
+index 0000000..b404fa5
+--- /dev/null
++++ b/emmet-laboratory/03-navigation.html
+@@ -0,0 +1,27 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <ul>
++        <li class="item1"></li>
++        <li class="item2"></li>
++        <li class="item3"></li>
++        <li class="item4"></li>
++        <li class="item5"></li>
++    </ul>
++
++    <ul>
++        <li>Menu 1</li>
++        <li>Menu 2</li>
++        <li>Menu 3</li>
++        <li>Menu 4</li>
++        <li>Menu 5</li>
++    </ul>
++
++    nav>ul>li*5>a{Home{About {Services {Projects {Contact
++</body>
++</html>
+
+commit 0f513cec37faef8056c5a3009218b3daf0b40fed
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-10-03 12:37:03 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-03 12:37:03 +0800
+
+    Create 02-classes-ids.html
+
+diff --git a/emmet-laboratory/02-classes-ids.html b/emmet-laboratory/02-classes-ids.html
+new file mode 100644
+index 0000000..94e2ed4
+--- /dev/null
++++ b/emmet-laboratory/02-classes-ids.html
+@@ -0,0 +1,21 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=h1, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    <h1></h1>
++    <h2></h2>
++    <h2></h2>
++    <p></p>
++    <p></p>
++    <p></p>
++    <div></div>
++    <header></header>
++    <nav></nav>
++    <main></main>
++    <footer></footer>
++</body>
++</html>
+
+commit 38a8cfd05f853b04b8cec22e93a59ac5622a1f7a
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-10-03 12:36:42 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-03 12:36:42 +0800
+
+    Create 01-basic.html
+
+diff --git a/emmet-laboratory/01-basic.html b/emmet-laboratory/01-basic.html
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/emmet-laboratory/01-basic.html
+@@ -0,0 +1 @@
++
+
+commit 70953ce3a0b6840f8f7168e9662ac7bb1b0e0cbb
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-10-03 12:36:11 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-03 12:36:11 +0800
+
+    Create index.html
+
+diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
+new file mode 100644
+index 0000000..bd2bde6
+--- /dev/null
++++ b/emmet-laboratory/index.html
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    
++</body>
++</html>
+
+commit 61fb073b957186e2e3d0f8d1aee7dfbeb302a1bb
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-10-03 11:46:48 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-03 11:46:48 +0800
+
+    Delete html/HTML Lab directory
+
+diff --git a/html/HTML Lab/w b/html/HTML Lab/w
+deleted file mode 100644
+index 8b13789..0000000
+--- a/html/HTML Lab/w	
++++ /dev/null
+@@ -1 +0,0 @@
+-
+
+commit dccf0b94727bc3e8967fcf3af4140d4f0c3c4981
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-10-03 11:46:05 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-03 11:46:05 +0800
+
+    Create w
+
+diff --git a/html/HTML Lab/w b/html/HTML Lab/w
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/html/HTML Lab/w	
+@@ -0,0 +1 @@
++
+
+commit b164a7e9ae4d41a907cd945c50ea727d6797bcb4
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-26 12:39:34 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-26 12:39:34 +0800
+
+    Create schedule.html
+
+diff --git a/html/schedule.html b/html/schedule.html
+new file mode 100644
+index 0000000..a77b713
+--- /dev/null
++++ b/html/schedule.html
+@@ -0,0 +1,40 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Tables</title>
++</head>
++<body>
++    <table>
++        <tr>
++            <td>Day</th>
++            <td>Time</th>
++            <td>Subject</th>
++            <td>Room</th>
++            <td>Instructor</th>
++        </tr>
++        <tr>
++            <td>Monday</td>
++            <td>7:30-8:50</td>
++            <td>SOCSCI100</td>
++            <td>S237</td>
++            <td>Maria Florida Dela Cruz</td>
++        </tr>
++        <tr>
++            <td></td>
++            <td>8:50-10:10</td>
++            <td>SCI100</td>
++            <td>S230</td>
++            <td>Jell Villareal</td>
++        </tr>
++        <tr>
++            <td></td>
++            <td>3:30-4:50</td>
++            <td>PATHFIT4</td>
++            <td>GYM</td>
++            <td></td>
++        </tr>
++    </table>
++</body>
++</html>
+
+commit ad75dfebd61d9c1260bf78719323819054fa7e92
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-22 12:25:57 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 12:25:57 +0800
+
+    Create page
+
+diff --git a/html/pages/page b/html/pages/page
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/html/pages/page
+@@ -0,0 +1 @@
++
+
+commit f3e5f6938cafb84a298f7159f675844036f8f22c
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-22 12:25:45 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 12:25:45 +0800
+
+    Create profile.png
+
+diff --git a/html/images/profile.png b/html/images/profile.png
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/html/images/profile.png
+@@ -0,0 +1 @@
++
+
+commit c2401a65d049a70e2f6db2bd54c6a49aa6ecca65
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-22 12:25:19 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 12:25:19 +0800
+
+    Delete html/images/image
+
+diff --git a/html/images/image b/html/images/image
+deleted file mode 100644
+index 8b13789..0000000
+--- a/html/images/image
++++ /dev/null
+@@ -1 +0,0 @@
+-
+
+commit 5088c8fb7d927fb6866df9f71760b49cfc8ea649
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-22 12:25:12 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 12:25:12 +0800
+
+    Delete html/pages/page
+
+diff --git a/html/pages/page b/html/pages/page
+deleted file mode 100644
+index 8b13789..0000000
+--- a/html/pages/page
++++ /dev/null
+@@ -1 +0,0 @@
+-
+
+commit a8d633fa9e8f1fe4ae7e622922105b5b729c16d3
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-22 12:25:01 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 12:25:01 +0800
+
+    Create page
+
+diff --git a/html/pages/page b/html/pages/page
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/html/pages/page
+@@ -0,0 +1 @@
++
+
+commit 4f80298fac28c0e2b1b41550045d8eef2f986de4
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-22 12:24:47 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 12:24:47 +0800
+
+    Create image
+
+diff --git a/html/images/image b/html/images/image
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/html/images/image
+@@ -0,0 +1 @@
++
+
+commit 8a2d100ae589fae2bf50624a57a899bd5c022c00
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-22 12:23:40 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 12:23:40 +0800
+
+    Delete html/foler/as
+
+diff --git a/html/foler/as b/html/foler/as
+deleted file mode 100644
+index 8b13789..0000000
+--- a/html/foler/as
++++ /dev/null
+@@ -1 +0,0 @@
+-
+
+commit 206855002b2fb5ef9288e4e367dca12d788a3bc9
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-22 12:23:14 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 12:23:14 +0800
+
+    Create as
+
+diff --git a/html/foler/as b/html/foler/as
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/html/foler/as
+@@ -0,0 +1 @@
++
+
+commit 09a972e882330e1f4a0eb56899139c7549a39594
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-22 12:22:53 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 12:22:53 +0800
+
+    Delete html/folder
+
+diff --git a/html/folder b/html/folder
+deleted file mode 100644
+index 8b13789..0000000
+--- a/html/folder
++++ /dev/null
+@@ -1 +0,0 @@
+-
+
+commit 6cc1689b47c9dd012c96ce3e0748b845ff62af55
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-22 12:22:32 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 12:22:32 +0800
+
+    Create folder
+
+diff --git a/html/folder b/html/folder
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/html/folder
+@@ -0,0 +1 @@
++
+
+commit 25e62422902fe33138225151a394508526e42c55
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-22 12:07:06 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 12:07:06 +0800
+
+    Delete html/images
+
+diff --git a/html/images b/html/images
+deleted file mode 100644
+index 7898192..0000000
+--- a/html/images
++++ /dev/null
+@@ -1 +0,0 @@
+-a
+
+commit 664718c59aee7df924bb684596ed58f79547b6fa
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-22 12:06:13 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 12:06:13 +0800
+
+    Create images
+
+diff --git a/html/images b/html/images
+new file mode 100644
+index 0000000..7898192
+--- /dev/null
++++ b/html/images
+@@ -0,0 +1 @@
++a
+
+commit 1f8643650249275a9bfc2268e65e52c2052b36ea
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-22 12:04:35 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 12:04:35 +0800
+
+    Rename lists.html to html/lists.html
+
+diff --git a/lists.html b/html/lists.html
+similarity index 100%
+rename from lists.html
+rename to html/lists.html
+
+commit 7d251878aebc17e536c5908b3faa9de8bc574cf5
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-22 12:04:13 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 12:04:13 +0800
+
+    Update lists.html
+
+diff --git a/lists.html b/lists.html
+index 950bfd9..c34a3e7 100644
+--- a/lists.html
++++ b/lists.html
+@@ -23,20 +23,27 @@
+         <li>C#</li>
+     </ol>
+     <h1>C. Nested Lists</h1>
+-    <li>
+-        Computer Science
+-        <ul>
+-            Programming
+-            <ul>Java</ul>
+-            <ul>Python</ul>
+-            <ul>PHP</ul>
+-        </ul>
+-        <ol>
+-            Web Development
+-            <ol>HTML</ol>
+-            <ol>CSS</ol>
+-            <ol>JavaScript</ol>
+-        </ol>
+-    </li>
++    <ul>
++        <li>Computer Science
++            <ul>
++                <li>Programming
++                    <ul>
++                        <li>Java</li>
++                        <li>Python</li>
++                        <li>PHP</li>
++                    </ul>
++                </li>
++            </ul>
++            <ul>
++                <li>Web Development
++                    <ul>
++                        <li>HTML</li>
++                        <li>CSS</li>
++                        <li>JavaScript</li>
++                    </ul>
++                </li>
++            </ul>
++        </li>
++    </ul>
+ </body>
+ </html>
+
+commit 9690d0d99273bc471ccd0bfc04fc6e1cb2a0ea3f
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-22 11:50:34 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 11:50:34 +0800
+
+    Rename links.html to html/links.html
+
+diff --git a/links.html b/html/links.html
+similarity index 100%
+rename from links.html
+rename to html/links.html
+
+commit 8eb71f94d501e6c135cb7e3f542efc00ab251d09
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-22 11:50:16 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 11:50:16 +0800
+
+    Rename index.html to html/index.html
+
+diff --git a/index.html b/html/index.html
+similarity index 100%
+rename from index.html
+rename to html/index.html
+
+commit 35147cef29c5e7eb45949ae9daf2048da28860ed
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-22 11:49:57 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 11:49:57 +0800
+
+    Rename images.html to html/images.html
+
+diff --git a/images.html b/html/images.html
+similarity index 100%
+rename from images.html
+rename to html/images.html
+
+commit d5951565981aec7b1cf2e4abf1b3431933aa9336
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-22 11:48:19 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 11:48:19 +0800
+
+    Rename formatting.html to html/formatting.html
+
+diff --git a/formatting.html b/html/formatting.html
+similarity index 100%
+rename from formatting.html
+rename to html/formatting.html
+
+commit 85d7d1484fe4b30a8760f20210f76d6c1a9686de
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-22 11:46:10 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 11:46:10 +0800
+
+    Rename contact.html to html/contact.html
+
+diff --git a/contact.html b/html/contact.html
+similarity index 100%
+rename from contact.html
+rename to html/contact.html
+
+commit 769334f44868d934e513ba62272b1005f762d174
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-22 11:45:35 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 11:45:35 +0800
+
+    Rename about.html to html/about.html
+
+diff --git a/about.html b/html/about.html
+similarity index 100%
+rename from about.html
+rename to html/about.html
+
+commit 633370aa89368dc8f7e22eac3c38decc17fc7310
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-19 12:40:22 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-19 12:40:22 +0800
+
+    Create images.html
+
+diff --git a/images.html b/images.html
+new file mode 100644
+index 0000000..53dc7b8
+--- /dev/null
++++ b/images.html
+@@ -0,0 +1,15 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Images</title>
++</head>
++<body>
++    <img 
++    src="images/profile.jpg"
++    alt="Profile Picture"
++    width="200"
++    height="200">
++</body>
++</html>
+
+commit 6189fa7dfd3ef7031ac95077d3b080b7da43b16f
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-19 12:27:55 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-19 12:27:55 +0800
+
+    Update links.html
+
+diff --git a/links.html b/links.html
+index 51e1bc3..4551276 100644
+--- a/links.html
++++ b/links.html
+@@ -11,5 +11,11 @@
+         <a href="about.html">About</a>
+         <a href="contact.html">Contacts</a>
+     </nav>
++    <nav>
++        <li><a href="https://youtube.com">YouTube</a></li>
++        <li><a href="https://google.com">Google</a></li>
++        <li><a href="https://github.com">GitHub</a></li>
++        <li><a href="https://uc-bcf.edu.ph">University Of The Cordilleras</a></li>
++    </nav>
+ </body>
+ </html>
+
+commit 0c360df90a51542b91bcffda01d8f485fe6dc78c
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-19 12:22:41 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-19 12:22:41 +0800
+
+    Create links.html
+
+diff --git a/links.html b/links.html
+new file mode 100644
+index 0000000..51e1bc3
+--- /dev/null
++++ b/links.html
+@@ -0,0 +1,15 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Link And Navigation</title>
++</head>
++<body>
++    <nav>
++        <a href="index.html">Home</a>
++        <a href="about.html">About</a>
++        <a href="contact.html">Contacts</a>
++    </nav>
++</body>
++</html>
+
+commit 189dc516032c7d10a8c6b53e3b4f5f925ecd209c
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-19 12:11:36 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-19 12:11:36 +0800
+
+    Create lists.html
+
+diff --git a/lists.html b/lists.html
+new file mode 100644
+index 0000000..950bfd9
+--- /dev/null
++++ b/lists.html
+@@ -0,0 +1,42 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Lists</title>
++</head>
++<body>
++    <h1>A. Unordered List</h1>
++    <h2>Favorite Foods:</h2>
++    <ul>
++        <li>1. Curry</li>
++        <li>2. Ramen</li>
++        <li>3. Pizza</li>
++    </ul>
++    <h1>B. Ordered List</h1>
++    <h2>Top 5 Programming Languages</h2>
++    <ol>
++        <li>1. JavaScript</li>
++        <li>Python</li>
++        <li>Java</li>
++        <li>PHP</li>
++        <li>C#</li>
++    </ol>
++    <h1>C. Nested Lists</h1>
++    <li>
++        Computer Science
++        <ul>
++            Programming
++            <ul>Java</ul>
++            <ul>Python</ul>
++            <ul>PHP</ul>
++        </ul>
++        <ol>
++            Web Development
++            <ol>HTML</ol>
++            <ol>CSS</ol>
++            <ol>JavaScript</ol>
++        </ol>
++    </li>
++</body>
++</html>
+
+commit 29086da1fda6f5c9af387ebd50cc9bc4ee10c439
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-19 11:58:02 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-19 11:58:02 +0800
+
+    Update formatting.html
+
+diff --git a/formatting.html b/formatting.html
+index d556f1b..a87c407 100644
+--- a/formatting.html
++++ b/formatting.html
+@@ -22,16 +22,12 @@
+     <h3>7. small</h3>
+         <p>This makes the text <small>small</small>.</p>
+     <h3>8. del</h3>
+-        <p>This makes the text </p>
+-
+-
+-
+-
+-    
+-<del>
+-<ins>
+-<sub>
+-<sup>
++        <p>This makes the text <del>defined</del>.</p>
++    <h3>9. ins</h3>
++        <p>This defines <ins>inserted</ins> texts.</p>
++    <h3>10. sub</h3>
++        <p>This makes the text a <sub>subscript</sub>.</p>
++    <h3>11. sup</h3>
++        <p>This makes the text a <sup>superscript</sup>.</p>
+ </body>
+-
+ </html>
+
+commit 4a552ebfdf11303cf10eb4c78650bd963e07795b
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-17 12:39:51 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-17 12:39:51 +0800
+
+    Update formatting.html
+
+diff --git a/formatting.html b/formatting.html
+index 8b13789..d556f1b 100644
+--- a/formatting.html
++++ b/formatting.html
+@@ -1 +1,37 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>HTML Text Formatting</title>
++</head>
++<body>
++    <h1>HTML Text Formatting Elements:</h1> 
++    <h3>1. b</h3>
++        <p>This makes the text <b>bold</b>.</p>
++    <h3>2. strong</h3>
++        <p>This makes the text strong and similar to <strong>bold</strong>.</p>
++    <h3>3. i</h3>
++        <p>This makes the text <i>italic</i>.</p>
++    <h3>4. em</h3>
++        <p>This makes the text emphasized and similar to <em>italic</em>.</p>
++    <h3>5. u</h3>
++        <p>This makes the text <u>underlined</u>.</p>
++    <h3>6. mark</h3>
++        <p>This makes the text <mark>highlighted</mark>.</p>
++    <h3>7. small</h3>
++        <p>This makes the text <small>small</small>.</p>
++    <h3>8. del</h3>
++        <p>This makes the text </p>
+ 
++
++
++
++    
++<del>
++<ins>
++<sub>
++<sup>
++</body>
++
++</html>
+
+commit 900bed6a8bbc8e1268f270608a6069dae067e048
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-17 12:08:48 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-17 12:08:48 +0800
+
+    Update index.html
+
+diff --git a/index.html b/index.html
+index bfea1f2..029801e 100644
+--- a/index.html
++++ b/index.html
+@@ -12,10 +12,10 @@
+     <h2>Karl Aldrine Macapagal Emilio</h2><br>
+     <p>Bachelor Of Science in Infomation Technology</p><br>
+     <h2>About Me</h2>
+-    <h2>--------</h2>
++    <h2>-------------</h2>
+     <p>Born in May 16, 2007 at Baguio City.</p><br>
+     <h2>My Hobbies</h2>
+-    <h2>----------</h2>
++    <h2>---------------</h2>
+     <p>I like to game, watch, and draw.</p><br>
+     <h1>============================</h1>
+ </body>
+
+commit c38ce066595aac900133d573a225b852367eac81
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-17 12:07:52 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-17 12:07:52 +0800
+
+    Update index.html
+
+diff --git a/index.html b/index.html
+index d586ac5..bfea1f2 100644
+--- a/index.html
++++ b/index.html
+@@ -12,8 +12,10 @@
+     <h2>Karl Aldrine Macapagal Emilio</h2><br>
+     <p>Bachelor Of Science in Infomation Technology</p><br>
+     <h2>About Me</h2>
++    <h2>--------</h2>
+     <p>Born in May 16, 2007 at Baguio City.</p><br>
+     <h2>My Hobbies</h2>
++    <h2>----------</h2>
+     <p>I like to game, watch, and draw.</p><br>
+     <h1>============================</h1>
+ </body>
+
+commit d67e1861cd73562b0394416467fad979c6d6122c
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-17 12:05:48 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-17 12:05:48 +0800
+
+    Update index.html
+
+diff --git a/index.html b/index.html
+index aa289c7..d586ac5 100644
+--- a/index.html
++++ b/index.html
+@@ -3,7 +3,7 @@
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>CITCS HTML</title>
++    <title>My Page</title>
+ </head>
+ <body>
+     <h1>============================<br>
+
+commit 85c949bed921a10902a6e7a0b5a3816b4bb8ae4d
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-17 12:05:02 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-17 12:05:02 +0800
+
+    Create formatting.html
+
+diff --git a/formatting.html b/formatting.html
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/formatting.html
+@@ -0,0 +1 @@
++
+
+commit a7b789ee840a40fb727e2725f22226fd5de3b128
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-17 12:03:35 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-17 12:03:35 +0800
+
+    Update index.html
+
+diff --git a/index.html b/index.html
+index 50bcc2f..aa289c7 100644
+--- a/index.html
++++ b/index.html
+@@ -1 +1,20 @@
+-<doc
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>CITCS HTML</title>
++</head>
++<body>
++    <h1>============================<br>
++        Welcome to my Page<br>
++        ============================</h1><br>
++    <h2>Karl Aldrine Macapagal Emilio</h2><br>
++    <p>Bachelor Of Science in Infomation Technology</p><br>
++    <h2>About Me</h2>
++    <p>Born in May 16, 2007 at Baguio City.</p><br>
++    <h2>My Hobbies</h2>
++    <p>I like to game, watch, and draw.</p><br>
++    <h1>============================</h1>
++</body>
++</html>
+
+commit 38195c39b8052a12661fcd33f6a3cf145e34a372
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-17 11:51:53 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-17 11:51:53 +0800
+
+    Create contact.html
+
+diff --git a/contact.html b/contact.html
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/contact.html
+@@ -0,0 +1 @@
++
+
+commit 5457055f89fda2b9ec40026b0739d8ea3df3167f
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-17 11:51:28 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-17 11:51:28 +0800
+
+    Create about.html
+
+diff --git a/about.html b/about.html
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/about.html
+@@ -0,0 +1 @@
++
+
+commit ea63cf335db165ce76a9a7236a455fefde15650b
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-17 11:51:03 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-17 11:51:03 +0800
+
+    Rename index to index.html
+
+diff --git a/index b/index.html
+similarity index 100%
+rename from index
+rename to index.html
+
+commit fde04e9946158947054558b42af88a58d958889b
+Author:     KarlAldrineEmilio <academicportalandlibrary@gmail.com>
+AuthorDate: 2026-09-17 11:50:21 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-17 11:50:21 +0800
+
+    Create index
+
+diff --git a/index b/index
+new file mode 100644
+index 0000000..50bcc2f
+--- /dev/null
++++ b/index
+@@ -0,0 +1 @@
++<doc
